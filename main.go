@@ -13,7 +13,7 @@ import (
 func init() {
 	initializers.LoadEnvVariables()
 	initializers.ConnectDB()
-	// initializers.SyncDB()
+	initializers.SyncDB()
 }
 
 func main() {
